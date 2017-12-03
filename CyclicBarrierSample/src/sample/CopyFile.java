@@ -52,7 +52,6 @@ public class CopyFile implements Runnable {
 				// WORKフォルダに帳票ファイルをコピーする
 				Files.copy(src, dst);
 				out.println(MessageFormat.format("ファイルをコピーしました。コピー元：{0} コピー先：{1}",src,dst));
-
 				reportPathSetInWorkDir.add(dst);
 
 				// サイクリックバリアを使って待機する
