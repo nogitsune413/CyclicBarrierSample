@@ -28,6 +28,8 @@ public class BarrierAction implements Runnable {
 	public void run() {
 
 		if(!dateQueue.isEmpty()){
+
+			// WORKフォルダにある帳票ファイルを圧縮し、アーカイブフォルダに保存する
 			Compress.execute(new ArrayList<Path>(reportPathSetInWorkDir), new FilePath().getArchivePath(dateQueue.poll()));
 			reportPathSetInWorkDir.clear();
 		}
