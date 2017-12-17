@@ -28,7 +28,7 @@ CyclicBarrierを使って同期を取りながら、ファイルバックアッ�
 | ファイルをWORKフォルダにコピー |スレッドの同期        |
 | WORKフォルダのファイルの圧縮 |共通処理の実行          |
 
-
+![3](https://user-images.githubusercontent.com/2310460/34079738-cd367656-e376-11e7-985c-7abd54467510.JPG)
 
 ### ■ フォルダ構成
 
@@ -61,8 +61,6 @@ C:
    └─work (帳票ファイルの一時格納先)
 ```
 
-
-
-
-
+## 関連
+このプログラムを使ったCyclicBarrierの解説記事を以下に書いています。<br/>
 [Qiita記事 JavaのCyclicBarrierを使って平行処理を行う](https://qiita.com/nogitsune413/items/ec0132c306e1f15c6f87)
