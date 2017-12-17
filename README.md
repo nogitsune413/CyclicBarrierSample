@@ -18,7 +18,7 @@ CyclicBarrierを使って同期を取りながら、ファイルバックアッ�
 1. 同じ日付の帳票ファイルを、workフォルダにコピーします。
 2. workフォルダに集めた同じ日付の帳票ファイルを圧縮し、アーカイブフォルダに保存します。
 
-![4](https://user-images.githubusercontent.com/2310460/34079701-068a408c-e376-11e7-8e2e-1bb3ecec30bb.JPG)
+![image](https://user-images.githubusercontent.com/2310460/34079728-88b33a8c-e376-11e7-9093-bf3bbe979bcd.png)
 
 ### ■ CyclicBarrierの役割
 この機能におけるCyclicBarrierの役割は以下です。
